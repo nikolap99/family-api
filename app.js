@@ -17,6 +17,5 @@ app.post('/users/:id/kid', addChild);
 app.use((req, res, next) => {
     res.status(404).send('<h1>Page not found.</h1>');
 });
-// app.post('/users/:id/kid', addKid);
 
 app.listen(port, () => console.log(`Listening at http://localhost:${port}`));
