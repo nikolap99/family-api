@@ -10,4 +10,4 @@ A NodeJS API to perform CRUD operations using MySQL database
 | fullName  |  user_id |
 | email     |  name    |
 | gender    |  age     |
-            |  gender  |
+|           |  gender  |
